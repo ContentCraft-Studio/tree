@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --bgColor: #252525;
+  --white: #eaeaea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url('../img/backgroundImage.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bgColor);font-family: "Poppins", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header picture img {
+  width: 245px;
+  border: 5px solid var(--white);
+  border-radius: 50%;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 28px;
+}
+
+.go {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 300px;
+  height: 46px;
+  background-color: var(--bgColor1);
+  border: 1px solid var(--white);
+  border-radius: 100px;
+  opacity: 70%;
+}
+
+.go img {
+  width: 18px;
+  color: #000000;
+}
+
+#flecha {
+  position: absolute;
+  right: 16px;
+  display: none;
+}
+
+.btn-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white);
+}
